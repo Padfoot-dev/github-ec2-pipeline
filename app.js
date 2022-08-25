@@ -4,7 +4,7 @@ const port = 4000;
 
 
 app.get("/",(req,res)=> {
-    res.send("Welcome to the express app!")
+    res.send("Welcome to the express app second commit!")
 })
 
 app.get("/products",(req,res)=> {
@@ -16,6 +16,6 @@ app.get("/products",(req,res)=> {
     })
 })
 
-app.listen(port , ()=> {
+app.listen(4000 , ()=> {
     console.log(`app listening on port ${port}`)
 })
